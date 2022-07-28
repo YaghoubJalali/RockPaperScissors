@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissorsService.Model
 {
-    public class Rock : Hand
+    public class RockAndRole : Hand
     {
     }
 }

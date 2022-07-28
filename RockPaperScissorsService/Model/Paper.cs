@@ -8,6 +8,5 @@ namespace RockPaperScissorsService.Model
 {
     public class Paper : Hand
     {
-        public Paper() { }
     }
 }
