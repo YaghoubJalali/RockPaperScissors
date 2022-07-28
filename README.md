@@ -1,1 +1,4 @@
-Rock Paper Scissors .Net C# 
+Rock Paper Scissors Game
+OOP
+.Net 
+C# 
