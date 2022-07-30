@@ -22,7 +22,7 @@ namespace RockPaperScissorsService
         public override Hand CreateRockHand()
         {
             Hand rockHand = base.CreateRockHand();
-            rockHand.AddDispatcher(CreateRockAndROllHand(), () => { return GameResult.Winner; });
+            rockHand.AddDispatcher(new RockAndRole(), () => { return GameResult.Winner; });
             return rockHand;
         }
 
